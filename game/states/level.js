@@ -1,6 +1,6 @@
 'use strict';
-var Player = require('/Users/OPTIMUS/pewpew/game/objects/player');
-var HUD = require('/Users/OPTIMUS/pewpew/game/objects/hud');
+var Player = require('/Users/OPTIMUS/alien-planets/game/objects/player');
+var HUD = require('/Users/OPTIMUS/alien-planets/game/objects/hud');
 
 // Base class for each level
 
@@ -19,8 +19,11 @@ Level.prototype = {
 		this.game.stage.backgroundColor = '#7ec0ee';
 
 		this.hud = new HUD(this.game);
-		this.player = new Player(this.game, this.hud, 100, 1283);
+		this.player = new Player(this.game, this.hud, 1000, 3000);
 		this.player.updateAliens('green');
+
+		this.enemies = this.game.add.group();
+		this.enemies.enableBody = true;
 
 		this.switchGreenAlien = this.game.input.keyboard.addKey(Phaser.Keyboard.ONE);
 		this.switchBlueAlien = this.game.input.keyboard.addKey(Phaser.Keyboard.TWO);
@@ -30,7 +33,18 @@ Level.prototype = {
 	},
 
 	update: function() {
-		this.game.physics.arcade.collide(this.player, this.mapBackground);
+		this.game.physics.arcade.collide(this.enemies, this.mapCollision);
+		this.game.physics.arcade.collide(this.player, this.mapCollision);
+		this.game.physics.arcade.collide(this.player, this.enemies);
+
+		if(this.player.gameOver) {
+			return;
+		}
+		for(var heart in this.player.hearts) {
+			if(this.player.hearts[heart] == 0) {
+				this.loser();
+			}
+		}
 
 		if(this.testingButton.isDown) {
 			//Do some random test
@@ -52,6 +66,21 @@ Level.prototype = {
 			this.hud.updateAliens('tan');
 			this.player.updateAliens('tan');
 		}
+	},
+
+	loser: function() {
+		this.player.gameOver = true;
+		var failedText = this.game.add.text(this.game.camera.width/2,this.game.camera.height/2, 'Mission failed', { font: "65px Arial", fill: "#ff0044", align: "center" });
+		failedText.anchor.setTo(0.5,0.5);
+		failedText.fixedToCamera = true;
+		var restartText = this.game.add.text(this.game.camera.width/2,this.game.camera.height/2 + failedText.height, 'Click to restart', { font: "20px Arial", fill: "#000000", align: "center" });
+		restartText.anchor.setTo(0.5,0.5);
+		restartText.fixedToCamera = true;
+		this.input.onDown.addOnce(function() {this.game.state.restart();}, this);
+	},
+
+	winner: function() {
+
 	}
 };
 

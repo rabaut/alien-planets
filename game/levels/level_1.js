@@ -1,6 +1,6 @@
 'use strict';
 
-var Level = require('/Users/OPTIMUS/pewpew/game/states/level');
+var Level = require('/Users/OPTIMUS/alien-planets/game/states/level');
 
 function level_1() {
 
@@ -12,14 +12,18 @@ level_1.prototype.constructor = level_1;
 level_1.prototype.create = function() {
 	this.map = this.game.add.tilemap('level_1');
 	this.map.addTilesetImage('grass');
+	this.map.addTilesetImage('special');
+	this.map.addTilesetImage('building');
 
-	this.map.setCollision(26);
-	this.map.setCollision(8);
+	this.map.setCollisionBetween(0,500);
 
-	this.mapBackground = this.map.createLayer('Background');
-	this.mapBackground.resizeWorld();
+	this.mapCollision = this.map.createLayer('Collision');
+	this.mapCollision.resizeWorld();
 
 	Level.prototype.create.call(this);
+
+	this.map.createFromObjects('Enemies', 426, 'enemies', 'snakeSlime.png', true, false, this.enemies);
+	this.map.createFromObjects('Enemies', 417, 'enemies', 'snake.png', true, false, this.enemies);
 };
 
 module.exports = level_1;

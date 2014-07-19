@@ -1,13 +1,55 @@
-{ "height":20,
+{ "height":50,
  "layers":[
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-         "height":20,
-         "name":"Background",
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 0, 36, 0, 0, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 0, 0, 0, 36, 0, 0, 36, 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 0, 0, 36, 0, 0, 36, 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 36, 0, 0, 0, 36, 0, 0, 36, 0, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 29, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 29, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 29, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 29, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 29, 0, 0, 0, 0, 0, 1, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 22, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 44, 0, 0, 0, 0, 0, 0, 0, 1, 24, 47, 0, 0, 0, 0, 0, 0, 0, 22, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 44, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 44, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 339, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 29, 0, 0, 1, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 29, 0, 0, 0, 8, 0, 0, 1, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 29, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 151, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 15, 15, 15, 36, 15, 36, 36, 36, 36, 36, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 154, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 151, 36, 36, 36, 36, 36, 36, 36, 36, 44, 0, 0, 0, 152, 0, 37, 15, 15, 36, 44, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 1, 24, 24, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 44, 0, 0, 0, 0, 0, 0, 0, 0, 0, 167, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 15, 15, 44, 167, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 152, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 24, 47, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 26, 26, 6, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 338, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 154, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 26, 26, 26, 26, 26, 26, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 38, 26, 26, 26, 26, 26, 6, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 26, 26, 26, 26, 26, 26, 26, 6, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "height":50,
+         "name":"Collision",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":40,
+         "width":100,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "height":50,
+         "name":"Enemies",
+         "objects":[
+                {
+                 "gid":417,
+                 "height":0,
+                 "name":"",
+                 "properties":
+                    {
+                     "body.immovable":"true"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":2255,
+                 "y":2921
+                }, 
+                {
+                 "gid":417,
+                 "height":0,
+                 "name":"",
+                 "properties":
+                    {
+                     "body.immovable":"true"
+                    },
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":1891,
+                 "y":2917
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "width":100,
          "x":0,
          "y":0
         }],
@@ -32,8 +74,483 @@
          "spacing":0,
          "tileheight":70,
          "tilewidth":70
+        }, 
+        {
+         "firstgid":50,
+         "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Tile extension pack (360 assets)\/PNG Castle\/Spritesheet\/sheet.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"castle",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tileheight":70,
+         "tilewidth":70
+        }, 
+        {
+         "firstgid":99,
+         "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Request pack (100 assets)\/Spritesheet\/sheet.png",
+         "imageheight":490,
+         "imagewidth":980,
+         "margin":0,
+         "name":"special",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tileheight":70,
+         "tilewidth":70
+        }, 
+        {
+         "firstgid":197,
+         "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Tile extension pack (360 assets)\/PNG Dirt\/Spritesheet\/sheet.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"dirt",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tileheight":70,
+         "tilewidth":70
+        }, 
+        {
+         "firstgid":246,
+         "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Building pack (100 assets)\/Spritesheet\/sheet.png",
+         "imageheight":490,
+         "imagewidth":980,
+         "margin":0,
+         "name":"building",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tileheight":70,
+         "tilewidth":70
+        }, 
+        {
+         "firstgid":344,
+         "margin":0,
+         "name":"Enemies",
+         "properties":
+            {
+
+            },
+         "spacing":0,
+         "tileheight":147,
+         "tiles":
+            {
+             "0":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/barnacle_bite.png"
+                },
+             "1":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/barnacle_dead.png"
+                },
+             "10":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/bee_fly.png"
+                },
+             "11":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/bee_hit.png"
+                },
+             "12":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/bee.png"
+                },
+             "13":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fishGreen_dead.png"
+                },
+             "14":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fishGreen_hit.png"
+                },
+             "15":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fishGreen_swim.png"
+                },
+             "16":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fishGreen.png"
+                },
+             "17":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fishPink_dead.png"
+                },
+             "18":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fishPink_hit.png"
+                },
+             "19":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fishPink_swim.png"
+                },
+             "2":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/barnacle_hit.png"
+                },
+             "20":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fishPink.png"
+                },
+             "21":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fly_dead.png"
+                },
+             "22":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fly_fly.png"
+                },
+             "23":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fly_hit.png"
+                },
+             "24":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/fly.png"
+                },
+             "25":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/frog_dead.png"
+                },
+             "26":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/frog_hit.png"
+                },
+             "27":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/frog_leap.png"
+                },
+             "28":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/frog.png"
+                },
+             "29":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/ghost_dead.png"
+                },
+             "3":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/barnacle.png"
+                },
+             "30":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/ghost_hit.png"
+                },
+             "31":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/ghost_normal.png"
+                },
+             "32":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/ghost.png"
+                },
+             "33":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/grassBlock_dead.png"
+                },
+             "34":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/grassBlock_hit.png"
+                },
+             "35":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/grassBlock_jump.png"
+                },
+             "36":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/grassBlock.png"
+                },
+             "37":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/ladyBug_fly.png"
+                },
+             "38":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/ladyBug_hit.png"
+                },
+             "39":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/ladyBug_walk.png"
+                },
+             "4":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/bat_dead.png"
+                },
+             "40":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/ladyBug.png"
+                },
+             "41":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/mouse_dead.png"
+                },
+             "42":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/mouse_hit.png"
+                },
+             "43":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/mouse_walk.png"
+                },
+             "44":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/mouse.png"
+                },
+             "45":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/piranha_dead.png"
+                },
+             "46":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/piranha_down.png"
+                },
+             "47":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/piranha_hit.png"
+                },
+             "48":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/piranha.png"
+                },
+             "49":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slime_dead.png"
+                },
+             "5":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/bat_fly.png"
+                },
+             "50":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slime_hit.png"
+                },
+             "51":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slime_squashed.png"
+                },
+             "52":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slime_walk.png"
+                },
+             "53":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slime.png"
+                },
+             "54":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeBlock_dead.png"
+                },
+             "55":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeBlock_hit.png"
+                },
+             "56":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeBlock.png"
+                },
+             "57":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeBlue_blue.png"
+                },
+             "58":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeBlue_dead.png"
+                },
+             "59":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeBlue_hit.png"
+                },
+             "6":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/bat_hang.png"
+                },
+             "60":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeBlue_squashed.png"
+                },
+             "61":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeBlue.png"
+                },
+             "62":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeGreen_dead.png"
+                },
+             "63":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeGreen_hit.png"
+                },
+             "64":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeGreen_squashed.png"
+                },
+             "65":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeGreen_walk.png"
+                },
+             "66":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/slimeGreen.png"
+                },
+             "67":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snail_hit.png"
+                },
+             "68":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snail_shell.png"
+                },
+             "69":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snail_walk.png"
+                },
+             "7":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/bat_hit.png"
+                },
+             "70":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snail.png"
+                },
+             "71":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snake_dead.png"
+                },
+             "72":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snake_hit.png"
+                },
+             "73":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snake_walk.png"
+                },
+             "74":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snake.png"
+                },
+             "75":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snakeLava_ani.png"
+                },
+             "76":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snakeLava_dead.png"
+                },
+             "77":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snakeLava_hit.png"
+                },
+             "78":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snakeLava.png"
+                },
+             "79":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snakeSlime_ani.png"
+                },
+             "8":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/bat.png"
+                },
+             "80":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snakeSlime_dead.png"
+                },
+             "81":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snakeSlime_hit.png"
+                },
+             "82":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/snakeSlime.png"
+                },
+             "83":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spider_dead.png"
+                },
+             "84":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spider_hit.png"
+                },
+             "85":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spider_walk1.png"
+                },
+             "86":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spider_walk2.png"
+                },
+             "87":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spider.png"
+                },
+             "88":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spinner_dead.png"
+                },
+             "89":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spinner_hit.png"
+                },
+             "9":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/bee_dead.png"
+                },
+             "90":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spinner_spin.png"
+                },
+             "91":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spinner.png"
+                },
+             "92":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spinnerHalf_dead.png"
+                },
+             "93":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spinnerHalf_hit.png"
+                },
+             "94":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spinnerHalf_spin.png"
+                },
+             "95":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/spinnerHalf.png"
+                },
+             "96":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/worm_dead.png"
+                },
+             "97":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/worm_hit.png"
+                },
+             "98":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/worm_walk.png"
+                },
+             "99":
+                {
+                 "image":"..\/..\/..\/..\/Downloads\/kenneyDonation_v9\/Art (5810 files)\/Platformer assets (1330 assets)\/Extra animations and enemies (165 assets)\/Enemy sprites\/worm.png"
+                }
+            },
+         "tilewidth":88
         }],
  "tilewidth":70,
  "version":1,
- "width":40
+ "width":100
 }
