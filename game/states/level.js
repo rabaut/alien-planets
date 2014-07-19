@@ -35,7 +35,24 @@ Level.prototype = {
 	update: function() {
 		this.game.physics.arcade.collide(this.enemies, this.mapCollision);
 		this.game.physics.arcade.collide(this.player, this.mapCollision);
-		this.game.physics.arcade.collide(this.player, this.enemies);
+		this.game.physics.arcade.collide(this.player, this.enemies, function(player, enemies) {
+			if(enemies.body.touching.up) {
+				enemies.kill();
+			} else {
+				player.damage(1);
+			}
+			if(player.body.touching.down) {
+				player.body.velocity.y = -300;
+			}
+			if(player.body.touching.left) {
+				player.body.velocity.x = 200;
+				player.body.velocity.y = -200;
+			}
+			else if(player.body.touching.right) {
+				player.body.velocity.x = -200;
+				player.body.velocity.y = -200;
+			}
+		});
 
 		if(this.player.gameOver) {
 			return;

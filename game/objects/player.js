@@ -29,6 +29,10 @@ function Player(game, hud, x, y) {
 	this.sprintDelay = 2000;
 	this.sprinting = false;
 
+	this.hurt = false;
+	this.hurtTimer = 0;
+	this.hurtDelay = 400;
+
 	this.abilityDelay = 8000;
 
 	this.aliens = ['green', 'blue', 'pink', 'tan'];
@@ -41,7 +45,7 @@ function Player(game, hud, x, y) {
 		var a = this.aliens[alien];
 		this.animations.add(a + 'Stand', [a + 'Stand.png'], 10, false, false);
 		this.animations.add(a + 'Jump', [a + 'Jump.png'], 10, false, false);
-		this.animations.add(a + 'Hurt', [a + 'Hurt.png'], 10, false, false);
+		this.animations.add(a + 'Hurt', [a + 'Hurt.png'], 5, false, false);
 		this.animations.add(a + 'Walk', [a + 'Walk1.png', a + 'Walk2.png'], 7, true, false);
 	}
 
@@ -82,10 +86,17 @@ Player.prototype.update = function() {
 	if(this.gameOver) {
 		return;
 	}
-	if(this.body.velocity.y == 0) {
+	if(this.hurt) {
+		this.hurtTimer++;
+		if(this.game.time.now > this.hurtTimer) {
+			this.hurt = false;
+		}
+		return;
+	}
+	if(this.body.onFloor()) {
 		this.jumpCount = 0;
 	}
-	if(this.controls.jump.isDown && (this.body.velocity.y == 0 || this.jumpCount < 2) &&
+	if(this.controls.jump.isDown && this.jumpCount < 2 &&
 			this.game.time.now > this.jumpTimer) {
 		this.body.velocity.y = this.jumpPower;
 		this.action = 'Jump';
@@ -119,9 +130,7 @@ Player.prototype.update = function() {
 	else if(!this.sprinting) {
 		this.body.velocity.x = 0;
 		if(this.body.velocity.y == 0) {
-			if(!this.animations.getAnimation(this.alien + 'Hurt').isPlaying) {
-				this.action = 'Stand';
-			}
+			this.action = 'Stand';
 		}
 	}
 
@@ -152,12 +161,14 @@ Player.prototype.updateAliens = function(alien) {
 
 Player.prototype.damage = function(damage) {
 	this.action = 'Hurt';
-	if(damage > this.hearts[this.alien]) {
-		this.hearts[this.alien] = 0;
-	}
-	else if(this.hearts[this.alien] > 0) {
-		this.hearts[this.alien] -= damage;
-	}
+	this.hurt = true;
+	this.hurtTimer = this.game.time.now + this.hurtDelay;
+	// if(damage > this.hearts[this.alien]) {
+	// 	this.hearts[this.alien] = 0;
+	// }
+	// else if(this.hearts[this.alien] > 0) {
+	// 	this.hearts[this.alien] -= damage;
+	// }
 	this.updateAnimations();
 	this.hud.updateHearts(this.hearts[this.alien], this.heartsMax[this.alien]);
 };

@@ -13,11 +13,6 @@ Preloader.prototype = {
 		this.load.image('menu', 'assets/images/menu.png');
 		this.load.image('abilityBar', 'assets/images/abilityBar.png');
 		this.load.image('abilityBarBackground', 'assets/images/abilityBarBackground.png');
-		this.load.image('saberGreen', 'assets/images/saberGreen.png');
-		this.load.image('gun', 'assets/images/gun.png');
-		this.load.image('rifle', 'assets/images/rifle.png');
-		this.load.image('bulletGun', 'assets/images/bulletGun.png');
-		this.load.image('bulletRifle', 'assets/images/bulletRifle.png');
 		this.load.spritesheet('grass', 'assets/images/grass.png', 70, 70);
 		this.load.spritesheet('special', 'assets/images/special.png', 70, 70);
 		this.load.spritesheet('building', 'assets/images/building.png', 70, 70);
