@@ -16,17 +16,15 @@ function Player(game, hud, x, y) {
 	this.anchor.setTo(0.5,0.5);
 
 	this.facing = 'right';
-	this.jumpTimer = 0;
-	this.jumpCount = 0;
-	this.gunTimer = 0;
-	this.gunDelay = 300;
-	this.rifleTimer = 0;
-	this.rifleDelay = 900;
+
 	this.speed = 200;
+
 	this.jumpPower = -400;
 	this.jumpDelay = 500;
-	this.sprintPower = 400;
-	this.sprintDelay = 2000;
+	this.jumpCount = 0;
+
+	this.sprintPower = 10;
+	this.sprintDelay = 1500;
 	this.sprinting = false;
 
 	this.hurt = false;
@@ -96,12 +94,8 @@ Player.prototype.update = function() {
 	if(this.body.onFloor()) {
 		this.jumpCount = 0;
 	}
-	if(this.controls.jump.isDown && this.jumpCount < 2 &&
-			this.game.time.now > this.jumpTimer) {
-		this.body.velocity.y = this.jumpPower;
-		this.action = 'Jump';
-		this.jumpTimer = this.game.time.now + this.jumpDelay;
-		this.jumpCount++;
+	if(this.controls.jump.isDown) {
+		this.jump();
 	}
 	else if(this.controls.left.isDown) {
 		if(this.facing == 'right') {
@@ -150,6 +144,19 @@ Player.prototype.update = function() {
 	this.updateAnimations();
 };
 
+Player.prototype.jump = function() {
+	if((this.game.time.now < this.jumpTimer) || this.jumpCount > 2) {
+		return;
+	}
+	this.body.velocity.y = this.jumpPower;
+	this.action = 'Jump';
+	this.jumpTimer = this.game.time.now + this.jumpDelay;
+	this.jumpCount++;
+	if(this.alien == 'green') {
+		this.doubleJump();
+	}
+};
+
 Player.prototype.updateAnimations = function() {
 	this.animations.play(this.alien + this.action);
 };
@@ -163,31 +170,27 @@ Player.prototype.damage = function(damage) {
 	this.action = 'Hurt';
 	this.hurt = true;
 	this.hurtTimer = this.game.time.now + this.hurtDelay;
-	// if(damage > this.hearts[this.alien]) {
-	// 	this.hearts[this.alien] = 0;
-	// }
-	// else if(this.hearts[this.alien] > 0) {
-	// 	this.hearts[this.alien] -= damage;
-	// }
+	if(damage > this.hearts[this.alien]) {
+		this.hearts[this.alien] = 0;
+	}
+	else if(this.hearts[this.alien] > 0) {
+		this.hearts[this.alien] -= damage;
+	}
 	this.updateAnimations();
 	this.hud.updateHearts(this.hearts[this.alien], this.heartsMax[this.alien]);
 };
 
 Player.prototype.ability = function() {
-	if(this.alien == 'tan') {
-		console.log(this.game.physics.arcade.getObjectsUnderPointer(this.game.input.activePointer, this.game.world));
-
-	}
 	this.hud.drainAbilityBar(this.abilityDelay);
-	if(this.alien == 'green') {
+	if(this.alien == 'blue') {
 		this.sprinting = true;
 		this.sprintTimer = this.game.time.now + this.sprintDelay;
 	}
-	else if(this.alien == 'blue') {
-		this.knockback();
-	}
 	else if(this.alien == 'pink') {
 		this.love();
+	}
+	else if(this.alien == 'tan') {
+		this.teleport();
 	}
 };
 
@@ -201,8 +204,12 @@ Player.prototype.sprint = function() {
 	}
 };
 
-Player.prototype.knockback = function() {
-
+Player.prototype.doubleJump = function() {
+	if(this.doubleJumped) {
+		return;
+	} 
+	this.jumpCount++;
+	this.jump();
 };
 
 Player.prototype.love = function() {

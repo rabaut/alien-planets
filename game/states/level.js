@@ -10,7 +10,7 @@ function Level() {
 Level.prototype = {
 	create: function() {
 		this.settings = {
-			gravity: 800
+			gravity: 1000
 		}
 
 		this.game.physics.startSystem(Phaser.Physics.ARCADE);
@@ -19,7 +19,7 @@ Level.prototype = {
 		this.game.stage.backgroundColor = '#7ec0ee';
 
 		this.hud = new HUD(this.game);
-		this.player = new Player(this.game, this.hud, 1000, 3000);
+		this.player = new Player(this.game, this.hud, 80, 3000);
 		this.player.updateAliens('green');
 
 		this.enemies = this.game.add.group();
@@ -33,24 +33,30 @@ Level.prototype = {
 	},
 
 	update: function() {
+		this.game.physics.arcade.collide(this.enemies, this.mapBumpers, function(e,b) {
+			e.reverse = true;
+		});
 		this.game.physics.arcade.collide(this.enemies, this.mapCollision);
 		this.game.physics.arcade.collide(this.player, this.mapCollision);
 		this.game.physics.arcade.collide(this.player, this.enemies, function(player, enemies) {
 			if(enemies.body.touching.up) {
 				enemies.kill();
 			} else {
-				player.damage(1);
+				player.damage(.5);
 			}
 			if(player.body.touching.down) {
 				player.body.velocity.y = -300;
 			}
 			if(player.body.touching.left) {
-				player.body.velocity.x = 200;
+				player.body.velocity.x = 100;
 				player.body.velocity.y = -200;
 			}
 			else if(player.body.touching.right) {
-				player.body.velocity.x = -200;
+				player.body.velocity.x = -100;
 				player.body.velocity.y = -200;
+			}
+			else if(player.body.touching.up) {
+				player.body.velocity.y = 0;
 			}
 		});
 

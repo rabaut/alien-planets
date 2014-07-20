@@ -16,15 +16,22 @@ level_1.prototype.create = function() {
 	this.map.addTilesetImage('special');
 	this.map.addTilesetImage('building');
 
-	this.map.setCollisionBetween(0,500);
-
 	this.mapCollision = this.map.createLayer('Collision');
 	this.mapCollision.resizeWorld();
 
+	this.map.setCollisionBetween(0,500,true,'Collision');
+
+	this.mapBumpers = this.map.createLayer('Bumpers');
+	this.map.setCollisionBetween(0,500,true,'Bumpers');
+	this.game.physics.arcade.enable(this.mapBumpers);
+
+	this.mapBumpers.alpha = 0;
+
 	Level.prototype.create.call(this);
 
-	this.map.createFromObjects('Enemies', 426, 'enemies', 'snakeSlime.png', true, false, this.enemies, Enemy);
+	this.map.createFromObjects('Enemies', 413, 'enemies', 'snail.png', true, false, this.enemies, Enemy);
 	this.map.createFromObjects('Enemies', 417, 'enemies', 'snake.png', true, false, this.enemies, Enemy);
+	this.enemies.setAll('body.collideWorldBounds', true);
 };
 
 module.exports = level_1;
