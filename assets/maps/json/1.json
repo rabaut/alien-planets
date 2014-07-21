@@ -652,7 +652,7 @@
                  "name":"",
                  "properties":
                     {
-                     "lol":"testing"
+                     "lol":"'testing'"
                     },
                  "rotation":0,
                  "type":"Snake",
