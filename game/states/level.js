@@ -1,6 +1,6 @@
 'use strict';
-var Player = require('/Users/OPTIMUS/alien-planets/game/objects/player');
-var HUD = require('/Users/OPTIMUS/alien-planets/game/objects/hud');
+var Player = require('../objects/player');
+var HUD = require('../objects/hud');
 
 // Base class for each level
 
@@ -19,11 +19,18 @@ Level.prototype = {
 		this.game.stage.backgroundColor = '#7ec0ee';
 
 		this.hud = new HUD(this.game);
-		this.player = new Player(this.game, this.hud, 80, 3000);
+		this.player = new Player(this.game, this.hud, 880, 1000);
 		this.player.updateAliens('green');
 
 		this.enemies = this.game.add.group();
 		this.enemies.enableBody = true;
+
+		this.unlocked = {
+			'green': true,
+			'blue': false,
+			'pink': false,
+			'tan': false
+		};
 
 		this.switchGreenAlien = this.game.input.keyboard.addKey(Phaser.Keyboard.ONE);
 		this.switchBlueAlien = this.game.input.keyboard.addKey(Phaser.Keyboard.TWO);
@@ -42,10 +49,11 @@ Level.prototype = {
 			if(enemies.body.touching.up) {
 				enemies.kill();
 			} else {
-				player.damage(.5);
+				player.damage(enemies.strength);
 			}
 			if(player.body.touching.down) {
-				player.body.velocity.y = -300;
+				player.body.velocity.y = -350;
+				player.jumpCount = 0;
 			}
 			if(player.body.touching.left) {
 				player.body.velocity.x = 100;
@@ -57,10 +65,13 @@ Level.prototype = {
 			}
 			else if(player.body.touching.up) {
 				player.body.velocity.y = 0;
+				enemies.body.immovable = false;
 			}
 		});
 
 		if(this.player.gameOver) {
+			this.player.body.velocity.x = 0;
+			this.player.body.velocity.y = 0;
 			return;
 		}
 		for(var heart in this.player.hearts) {
@@ -73,19 +84,19 @@ Level.prototype = {
 			//Do some random test
 			this.player.damage(1);
 		}
-		if(this.switchGreenAlien.isDown) {
+		if(this.switchGreenAlien.isDown && this.unlocked['green']) {
 			this.hud.updateAliens('green');
 			this.player.updateAliens('green');
 		}
-		if(this.switchBlueAlien.isDown) {
+		if(this.switchBlueAlien.isDown && this.unlocked['blue']) {
 			this.hud.updateAliens('blue');
 			this.player.updateAliens('blue');
 		}
-		if(this.switchPinkAlien.isDown) {
+		if(this.switchPinkAlien.isDown && this.unlocked['pink']) {
 			this.hud.updateAliens('pink');
 			this.player.updateAliens('pink');
 		}
-		if(this.switchTanAlien.isDown) {
+		if(this.switchTanAlien.isDown && this.unlocked['tan']) {
 			this.hud.updateAliens('tan');
 			this.player.updateAliens('tan');
 		}

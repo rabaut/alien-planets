@@ -12,6 +12,8 @@ function HUD(game) {
 	this.abilityBarCharged = true;
 	this.abilityTweenDrain = this.game.add.tween(this.abilityBar).to({ width: 0 }, 500, Phaser.Easing.Linear.None);
 	this.abilityTweenDrain.onComplete.add(function() {this.abilityBar.tint = 0xF5335D;}, this);
+	this.abilityBar.alpha = 0;
+	this.abilityBarBackground.alpha = 0;
 
 	this.add(this.abilityBar);
 	this.add(this.abilityBarBackground);
@@ -33,6 +35,9 @@ function HUD(game) {
 		'tan': this.aliens.create(90, 0, 'hud', 'hud_tanAlt.png')
 	};
 
+	this.badges['blue'].tint = 0x303030;
+	this.badges['pink'].tint = 0x303030;
+	this.badges['tan'].tint = 0x303030;
 };
 
 HUD.prototype = Object.create(Phaser.Group.prototype);  
@@ -72,13 +77,21 @@ HUD.prototype.drainAbilityBar = function(delay) {
 	this.game.tweens.remove(tweenRegen);
 };
 
-HUD.prototype.updateAliens = function(newAlien) {
+HUD.prototype.updateAliens = function(newAlien, unlocking) {
 	if(newAlien == this.alien) {
 		return;
+	}
+	if(newAlien != 'green') {
+		this.abilityBar.alpha = 1;
+		this.abilityBarBackground.alpha = 1;
 	}
 	this.badges[newAlien].frameName = 'hud_' + newAlien + '.png';
 	this.badges[this.alien].frameName = 'hud_' + this.alien + 'Alt.png';
 	this.alien = newAlien;
+};
+
+HUD.prototype.unlockAlien = function(alien) {
+	this.badges[alien].tint = 0xFFFFFF;
 };
 
 module.exports = HUD;

@@ -1,12 +1,14 @@
 var gulp = require('gulp'),
 		gutil = require('gulp-util'),
 		gulpif = require('gulp-if'),
-		browserify = require('gulp-browserify'),
+		browserify = require('browserify'),
+		source = require('vinyl-source-stream'),
 		concat = require('gulp-concat'),
 		uglify = require('gulp-uglify'),
 		imagemin = require('gulp-imagemin'),
 		connect = require('gulp-connect'),
 		plumber = require('gulp-plumber'),
+		sourcemaps = require('gulp-sourcemaps'),
 		http = require('http'),
 		path = require('path'),
 		rmdir = require('rimraf');
@@ -25,23 +27,24 @@ gulp.task('connect', function() {
 
 gulp.task('vendor', function() {
 	gulp.src('vendor/*.js')
-		.pipe(gulp.dest('dist/assets/'))
-		.pipe(connect.reload());
+	 .pipe(sourcemaps.init())
+   .pipe(concat('vendor.js'))
+   .pipe(sourcemaps.write())
+   .pipe(gulp.dest('dist/js/'))
+	.pipe(connect.reload());
 });
 
 gulp.task('scripts', function() {
-	gulp.src('game/**/*.js')
-		.pipe(plumber(onError))
-		.pipe(browserify())
-		.pipe(concat('scripts.js'))
-		.pipe(gulpif(gutil.env.production, uglify()))
-		.pipe(gulp.dest('dist/assets/'))
-		.pipe(connect.reload());
+	return	browserify('./game/game.js')
+	  .bundle()
+	  .pipe(source('bundle.js'))
+	  .pipe(gulp.dest('dist/js/'))
+	  .pipe(connect.reload());
 });
 
 gulp.task('styles', function() {
 	gulp.src('styles/**')
-		.pipe(gulp.dest('dist/assets'))
+		.pipe(gulp.dest('dist/'))
 		.pipe(connect.reload());
 });
 

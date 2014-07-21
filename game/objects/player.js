@@ -17,9 +17,9 @@ function Player(game, hud, x, y) {
 
 	this.facing = 'right';
 
-	this.speed = 200;
+	this.speed = 240;
 
-	this.jumpPower = -400;
+	this.jumpPower = -420;
 	this.jumpDelay = 500;
 	this.jumpCount = 0;
 
@@ -181,6 +181,9 @@ Player.prototype.damage = function(damage) {
 };
 
 Player.prototype.ability = function() {
+	if(this.alien == 'green') {
+		return;
+	}
 	this.hud.drainAbilityBar(this.abilityDelay);
 	if(this.alien == 'blue') {
 		this.sprinting = true;

@@ -17,9 +17,11 @@
     "gulp-livereload": "",
     "gulp-uglify": "",
     "gulp-util": "",
-    "gulp-browserify": "",
     "gulp-imagemin": "",
     "gulp-if": "",
-    "gulp-plumber": ""
+    "gulp-plumber": "",
+    "browserify": "~4.2.3",
+    "vinyl-source-stream": "~0.1.1",
+    "gulp-sourcemaps": "~1.1.0"
   }
 }

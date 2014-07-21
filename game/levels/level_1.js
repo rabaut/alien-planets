@@ -1,7 +1,7 @@
 'use strict';
 
-var Level = require('/Users/OPTIMUS/alien-planets/game/states/level');
-var Enemy = require('/Users/OPTIMUS/alien-planets/game/objects/enemy');
+var Level = require('../states/level');
+var Enemy = require('../objects/enemy');
 
 function level_1() {
 
@@ -31,7 +31,10 @@ level_1.prototype.create = function() {
 
 	this.map.createFromObjects('Enemies', 413, 'enemies', 'snail.png', true, false, this.enemies, Enemy);
 	this.map.createFromObjects('Enemies', 417, 'enemies', 'snake.png', true, false, this.enemies, Enemy);
+	this.map.createFromObjects('Enemies', 410, 'enemies', 'slimeGreen.png', true, false, this.enemies, Enemy);
+	this.map.createFromObjects('Enemies', 379, 'enemies', 'grassBlock.png', true, false, this.enemies, Enemy);
 	this.enemies.setAll('body.collideWorldBounds', true);
+	this.enemies.setAll('body.immovable', true);
 };
 
 module.exports = level_1;
